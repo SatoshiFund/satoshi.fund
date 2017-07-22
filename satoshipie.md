@@ -114,17 +114,6 @@ In case of non-compliant structure fund managers are responsible for appropriate
 ## 6. Tokens
 The Satoshi•Pie corresponds to [SPIES](http://cryptofresh.com/a/SPIES) asset ID 1.3.1010 that was created at block [5972460](http://cryptofresh.com/b/5972460) using Bitshares ­blockchain as User Issued Asset by account [satoshifund](http://cryptofresh.com/u/satoshifund) [SF]. Supply of tokens depends on incomes and outcomes of fund’s capital. Every time purchaser sends bitcoins to Satoshi•Pie bitcoin address satoshifund issues SPIES tokens based on a price which is calculated at 12.00 GMT each day.
 
-Token Price = Value of Assets / Supply
-Purchaser Tokens = Investments / Token Price - Entrance Fee
-
-The current price of tokens is calculated as fund’s net assets value based on cyber•Rating methodology. Every time purchaser sends SPIES tokens to satoshifund account SPIES tokens are destroyed. Payout is calculated based on a price which is calculated at 12.00 GMT each day.
-
-Token Price = Value of Assets / Supply
-Investments = Purchaser Tokens * Token Price - Exit Fee
-
-The Fund is designed in a way that at any given moment SPIES tokens are backed by 100% of crypto property under management. SPIES tokens also designed to be perfectly fungible.
-A purchaser can sell SPIES tokens in the open market.
-
 ## 7. Economic Model
 The economic model of Satoshi•Pie enables lifetime assets management without management fees. Hence, there are 3 sources of revenue for motivating fund managers: profitable decisions, Satoshi•Fund, a continuous development and from investment agents, and new buyers of SPIES tokens.
 
@@ -207,9 +196,33 @@ No party involved with the Creation of makes any representations concerning the 
 
 The SPIES tokens are issued when the purchaser sends BTC to the designated fund account. Thus the purchaser does triggers SPIES issuance by his/her own actions. To the extent permitted by law, third parties or individuals associated with the Satoshi•Fund are not liable for any tax liability associated with or arising from holding of SPIES tokens.
 
-## 13. Weekly Valuation
+## 13. Token price calculation
+Токен SPIES свободно торгуемый на децентрализованной бирже BitShares актив. Его рыночная цена определяется участниками рынка. Любой владелец может свободно перемещать и продавать токены SPIES.
+
+Для осушествления операций redeem и issue Satshi•Fund осуществляет рассчет цены на основе Net Asset Valuation
+Для оценки стоимости конкретных активов Satshi•Fund делит их на ликвидные и неликвидные
+
+Для калькуляции стоимости ликвидных активов используется рыночная (биржевая) цена.
+Value of Assets = amount of tokens * asset market price
+
+Для калькуляции стоимости неликвидных активов используется цена покупки актива
+Value of Assets = amount of tokens * asset buy price 
+
+
+Token Price = Value of Assets / Supply
+Purchaser Tokens = Investments / Token Price - Entrance Fee
+
+The current price of tokens is calculated as fund’s net assets value based on cyber•Rating methodology. Every time purchaser sends SPIES tokens to `satoshi-pie-redeem` account SPIES tokens are destroyed. Payout is calculated based on a price which is calculated at 12.00 GMT each day.
+
+Token Price = Value of Assets / Supply
+Investments = Purchaser Tokens * Token Price - Exit Fee
+
+The Fund is designed in a way that at any given moment SPIES tokens are backed by 100% of crypto property under management. SPIES tokens also designed to be perfectly fungible.
+A purchaser can sell SPIES tokens in the open market.
+
 Every week the following procedure should be executed in order to calculate all issuances and redeems of SPIES:
--
+every wednesday 12:00 GMT
+Asset price fixing
 Фиксирование цен на активы осуществляется в 12:00 GMT
  - источники цен [ссылка]
  - csv файл (asset, symbol, usd-price, btc-price)
@@ -217,6 +230,7 @@ Every week the following procedure should be executed in order to calculate all 
 
 
 ## 14. Issuance Process
+Issue - выпуск новых токенов обеспеченный эквивалентным пополнением портфеля
 The investment process is the following:
 - users send BTC to a individual investment account
 -
@@ -232,7 +246,7 @@ btc: sent BTC from btc-sp-accept-msig to btc-sp-vault-msig  // mass tx
 - minimum amount to initiate new SPIES issue is 10 BTC
 
 ## 15. Redeem Process
-Redeem is ....
+Redeem is уничтожение токенов с последующим выводом из портфеля эквивалентной суммы
 
 The redeem (burn) process is the following:
 
