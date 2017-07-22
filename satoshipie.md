@@ -210,17 +210,43 @@ The SPIES tokens are issued when the purchaser sends BTC to the designated fund 
 ## 13. Weekly Valuation
 Every week the following procedure should be executed in order to calculate all issuances and redeems of SPIES:
 -
+Фиксирование цен на активы осуществляется в 12:00 GMT
+ - источники цен [ссылка]
+ - csv файл (asset, symbol, usd-price, btc-price)
+
+
 
 ## 14. Issuance Process
 The investment process is the following:
+- users send BTC to a individual investment account
 -
 -
 -
--
+txs:
+bts: issue SPIES to satoshifund
+bts: sent SPIES from satoshifund to clients
+bts: sent SPIES from satoshifund to sp-man-reward
+bts: sent SPIES from satoshifund to sp-agent-reward
+btc: sent BTC from btc-sp-accept-msig to btc-sp-vault-msig  // mass tx
+
+- minimum amount to initiate new SPIES issue is 10 BTC
 
 ## 15. Redeem Process
-The investment process is the following:
--
+Redeem is ....
+
+The redeem (burn) process is the following:
+
+
+link-to-list-of-reedeem-tx-in-bts-chain (timestamp, bts-tx-id, from-account, to-account, amount, asset, memo)
+
+tx:
+bts: sent SPIES from satoshi-pie-redeem to satoshifund // proposal
+bts: redeem SPIES from satoshifund // proposal
+btc: sent BTC from btc-sp-vault-msig to btc-sp-redeem-sent
+btc: sent BTC from btc-sp-redeem-sent to btc-clients  // template, mass tx
+
+- minimum amount to initiate SPIES redeem (burn) is 1000 SPIES
+
 
 ## Reference
 [CER] Dima Starodubcev, Vitaly Lvov, Marina Guryeva, Konstantin Lomashuk. [Cybernetic Economy Report](https://cyber.fund/cyberep).
