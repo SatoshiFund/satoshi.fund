@@ -199,18 +199,21 @@ The SPIES tokens are issued when the purchaser sends BTC to the designated fund 
 ## 13. Token price calculation
 Токен SPIES свободно торгуемый на децентрализованной бирже BitShares актив. Его рыночная цена определяется участниками рынка. Любой владелец может свободно перемещать и продавать токены SPIES.
 
-Для осушествления операций redeem и issue Satshi•Fund осуществляет рассчет цены на основе Net Asset Valuation
+Для осушествления операций redeem и issue Satshi•Fund осуществляет рассчет цены на основе Net Asset Valuation (NAV)
+Все параметры для калькуляции цены берутся по состоянию на 12:00 GMT
+
 Для оценки стоимости конкретных активов Satshi•Fund делит их на ликвидные и неликвидные
 
-Для калькуляции стоимости ликвидных активов используется рыночная (биржевая) цена.
-Value of Assets = amount of tokens * asset market price
+Для калькуляции стоимости ликвидных активов используется рыночная (биржевая) цена. see source [Apx.2 Price Sources]
+Value of liquid Assets = amount of tokens * asset market price
 
-Для калькуляции стоимости неликвидных активов используется цена покупки актива
-Value of Assets = amount of tokens * asset buy price 
+Для калькуляции стоимости неликвидных активов используется цена покупки актива (перевод в битки через эфиры)
+Value of unliquid Assets = amount of tokens * asset buy price
 
+Supply
 
-Token Price = Value of Assets / Supply
-Purchaser Tokens = Investments / Token Price - Entrance Fee
+Token Price by NAV = (Value of liquid Assets + Value of unliquid Assets) / Supply
+
 
 The current price of tokens is calculated as fund’s net assets value based on cyber•Rating methodology. Every time purchaser sends SPIES tokens to `satoshi-pie-redeem` account SPIES tokens are destroyed. Payout is calculated based on a price which is calculated at 12.00 GMT each day.
 
