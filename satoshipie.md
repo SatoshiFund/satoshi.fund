@@ -247,6 +247,41 @@ btc: sent BTC from btc-sp-redeem-sent to btc-clients  // template, mass tx
 
 - minimum amount to initiate SPIES redeem (burn) is 1000 SPIES
 
+---
+- в течении суток клиенты осуществляют инвестиции и ридимы
+
+- фиксирование балансов счетов SP в 12 GMT
+- фиксирование цен на активы
+- фиксирование SPIES supply
+
+- фиксирование входящих транзакций на индивидуальные инветиционные адрес (получившие 3 и более подтверждения)
+ - фиксирование транзакций на ридим (BTS satoshi-pie-redeem)
+
+- рассчет (NAV) Net Asset Valuation
+- рассчет цены за 1 SPIES
+- рассчет количества SPIES к выпуску
+- рассчет количества BTC к отправке клиентам (ридим)
+- рассчет количества SPIES для вознаграждения агентов
+- рассчет количества SPIES для вознаграждения менеджеров
+
+- формирование отчетов для менеджеров
+
+- формирование proposal на Redeem Asset
+- формирование proposal на Issue Asset
+- формирование proposal на отправку клиентам
+- формирование proposal на отправку агентам
+- формирование proposal на отправку менеджерам
+- формирование proposal на отправку выручки в хранилище
+
+- подписание bts транзакций менеджерами
+- подписание BTC транзакций менеджерами
+
+- изменение статусов входящих инвестиций
+- изменение статусов ридимов
+
+---
+
+
 
 ## Reference
 [CER] Dima Starodubcev, Vitaly Lvov, Marina Guryeva, Konstantin Lomashuk. [Cybernetic Economy Report](https://cyber.fund/cyberep).
