@@ -224,22 +224,41 @@ The investment process is the following:
 
 ## Reference
 [CER] Dima Starodubcev, Vitaly Lvov, Marina Guryeva, Konstantin Lomashuk. [Cybernetic Economy Report](https://cyber.fund/cyberep).
+
 [PE2013] Dima Starodubcev, Vitaly Lvov. [cyber•Fund Private Equity 2013 Transparency Report](https://docs.google.com/spreadsheets/d/1bMrLliQXlv8a5IZPDdjZUif_5eflsO7T6rax3QL1K-A/edit#gid=1150888735).
+
 [MR] Wikipedia. [Moore's Law](https://en.wikipedia.org/wiki/Moore%27s_law]
+
 [CR] Dima Starodubcev. [cyber•Rating: Crypto Property Evaluation](https://www.academia.edu/22691395/cyber_Rating_Crypto_Property_Evaluation)
+
 [NE] Wikipedia. [Network Effects](https://en.wikipedia.org/wiki/Network_effect)
+
 [ML] Wikipedia. [Metcalfe's Law](https://en.wikipedia.org/wiki/Metcalfe's_law)
+
 [ZL] Wikipedia. [Zipf's Law](https://en.wikipedia.org/wiki/Zipf%27s_law)
+
 [DoI] Wikipedia. [Diffusion of Innovations](https://en.wikipedia.org/wiki/Diffusion_of_innovations)
+
 [HC] Wikipedia. [Hype Cycle](https://en.wikipedia.org/wiki/Hype_cycle)
+
 [BST] Wikipedia. [Black Swan Theory](https://en.wikipedia.org/wiki/Black_swan_theory)
+
 [BM] Vitalik Buterin. [On Bitcoin maximalism and currency and platform network effects](https://blog.ethereum.org/2014/11/20/bitcoin-maximalism-currency-platform-network-effects)
+
 [CF] [cyber•Fund](https://cyber.fund)
+
 [TM] [TokenMarket](https://tokenmarket.net/)
+
 [ANN] [BitcoinTalk/ANN](https://bitcointalk.org/index.php?board=159.0)
+
 [BTS] [Bitshares 2.0 General Overview](https://bravenewcoin.com/assets/Whitepapers/bitshares-general.pdf)
+
 [DASH] [Dash](https://www.dash.org/wp-content/uploads/2015/04/Dash-WhitepaperV1.pdf)
+
 [STEEM] [Steem. An incentivized, blockchain-based social media platform](https://steem.io/SteemWhitePaper.pdf)
+
 [GOLOS] [Golos. Social media on the blockchain for russian language](https://wiki.golos.io/1-introduction/golos_whitepaper.html)
+
 [SPIES] [SPIES token](http://cryptofresh.com/a/SPIES)
+
 [SF] [Satoshifund account on Bitshares](http://cryptofresh.com/u/satoshifund)
