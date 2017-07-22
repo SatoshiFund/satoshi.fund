@@ -69,10 +69,6 @@ The inability to predict the future of particular asset due to [black swan event
 
 *Entry Strategy*. The Satoshi•Fund will enter new long positions, based on fundamental research considerations, according to the Investment Committee's motivated decision, notably regarding viability of the proposed investment's activities, competitors, comparable price metrics, and liquidity of the investment.
 
-Each holding will be increased or decreased each month, in order to attain a risk profile representing 4% of the portfolio's value, unless there is an Exit Trigger Event.
-
-In the case of new issues to be acquired, which do not have any history to measure volatility, the Investment Committee will attribute an estimated historical volatility score by comparison with similar issuers.
-
 *Exit Trigger Events*. Exit Trigger Events are events which override the Investment Committee's decisions and for the fund to liquidate an investment.
 
 Exit Trigger Events include:
