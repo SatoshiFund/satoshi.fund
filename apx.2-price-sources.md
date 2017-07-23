@@ -59,37 +59,38 @@ Civic - CVC - Bittrex
 
 EOS - EOS - Bitfinex
 
+Sonm - SNM -  Liqui
+
 bitUSD - BITUSD - BitShares DEX
 
 bitCNY - BITCNY - BitShares DEX
 
-## Uiquid Assets
+## Unliquid Assets
 
-Steem Power - STEEM POWER -  = steem
+Steem Power - STEEM POWER -  price of steem
 
-Golos Power - GOLOS POWER -  = golos
+Golos Power - GOLOS POWER -  = price of golos
 
-Tezos - XTZ -  = amout invested btc / amount of XTZ
+Tezos - XTZ - `amount invested btc` / `amount of XTZ`
 
-Dfinity - DFN -  = amout invested btc / amount of DFN
+Dfinity - DFN - `amount invested btc` / `amount of DFN`
 
-Qtum - QTUM -  = amout invested btc / amount of QTUM
+Qtum - QTUM - `amount invested btc` / `amount of QTUM`
 
-aeternity - AE -  = amout invested btc / amount of AE
+aeternity - AE - `amount invested btc` / `amount of AE`
 
-Cosmos - ATOM -  = amout invested btc / amount of ATOM
+Cosmos - ATOM - `amount invested btc` / `amount of ATOM`
 
-Storj-ERC20 - SJCX-ERC20 -  = amout invested eth / (amount of sjcx * eth price in btc)
+Storj-ERC20 - SJCX-ERC20 - `amount invested eth` / (`amount of sjcx` * `eth price in btc`)
 
-Aira - AIR -  = amout invested eth / (amount of air * eth price in btc)
+Aira - AIR - `amount invested eth` / (`amount of air` * `eth price in btc`)
 
-Sonm - SNM -  = amout invested eth / (amount of snm * eth price in btc)
+DAO.Casino - BET - `amount invested eth` / (`amount of bet` * `eth price in btc`)
 
-DAO.Casino - BET -  = amout invested eth / (amount of bet * eth price in btc)
-
-district0x - DNT -  = amout invested eth / (amount of dnt * eth price in btc)
+district0x - DNT -  = `amount invested eth` / (`amount of dnt` * `eth price in btc`)
 
 ---
+`BitShares DEX` - decentrilized exchange - https://bitshares.org/wallet
 
 `Bittrex` - exchange - https://bittrex.com
 
@@ -98,7 +99,5 @@ district0x - DNT -  = amout invested eth / (amount of dnt * eth price in btc)
 `Bitfinex` - exchange - https://bitfinex.com
 
 `Liqui` - decentralized exchange - https://liqui.io
-
-`BitShares DEX` - decentrilized https://bitshares.org/wallet
 
 `Poloniex` - exchange - https://poloniex.io
