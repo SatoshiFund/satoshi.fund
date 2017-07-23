@@ -112,28 +112,28 @@ Illiquid asset are usually non transferable assets which are impossible to liqui
 In case of non-compliant structure fund managers are responsible for appropriate actions within 48 hours.
 
 ## 6. Tokens
-The Satoshi•Pie corresponds to [SPIES](http://cryptofresh.com/a/SPIES) asset ID 1.3.1010 that was created at block [5972460](http://cryptofresh.com/b/5972460) using Bitshares ­blockchain as User Issued Asset by account [satoshifund](http://cryptofresh.com/u/satoshifund) [SF].
+The Satoshi•Pie corresponds to [`SPIES`](http://cryptofresh.com/a/`SPIES`) asset ID 1.3.1010 that was created at block [5972460](http://cryptofresh.com/b/5972460) using Bitshares ­blockchain as User Issued Asset by account [satoshifund](http://cryptofresh.com/u/satoshifund) [SF].
 
 ### Supply
-Supply of tokens depends on incomes and outcomes of fund’s capital.
-New `SPIES` tokens can be issued only then new funds arrive at the fund.
-If `SPIES` tokens is destroyed (`redeem` or `burn` procedure) equivalent amount of funds should be sent to a redeem purchaser.
+- Supply of tokens depends on incomes and outcomes of fund’s capital.
+- New ``SPIES`` tokens can be issued only then new funds arrive at the fund.
+- If ``SPIES`` tokens is destroyed (`redeem` or `burn` procedure) equivalent amount of funds should be sent to a redeem purchaser.
 
 ### Secured
-The Fund is designed in a way that at any given moment SPIES tokens are backed by 100% of crypto property under management.
+The Fund is designed in a way that at any given moment `SPIES` tokens are backed by 100% of crypto property under management.
 
 ### Transferable
-SPIES tokens also designed to be perfectly transferable. Holders can sent tokens at any time.
+`SPIES` tokens also designed to be perfectly transferable. Holders can sent tokens at any time.
 
 ### Tradable
-A holders can sell SPIES tokens in the open market at any time.
+A holders can sell `SPIES` tokens in the open market at any time.
 
 ## 7. Economic Model
-The economic model of Satoshi•Pie enables lifetime assets management without management fees. Hence, there are 3 sources of revenue for motivating fund managers: profitable decisions, Satoshi•Fund, a continuous development and from investment agents, and new buyers of SPIES tokens.
+The economic model of Satoshi•Pie enables lifetime assets management without management fees. Hence, there are 3 sources of revenue for motivating fund managers: profitable decisions, Satoshi•Fund, a continuous development and from investment agents, and new buyers of `SPIES` tokens.
 
-*Entry fee*. Any time a purchaser wants to enter the fund  5% of issued SPIES tokens is being deducted to reward fund managers, Satoshi•Fund and referrals. The allocation of rewards is the following:
-- Fund managers: 2.5 % of SPIES
-- Satoshi•Fund: 2.5 % of SPIES. Referrals are subject to
+*Entry fee*. Any time a purchaser wants to enter the fund  5% of issued `SPIES` tokens is being deducted to reward fund managers, Satoshi•Fund and referrals. The allocation of rewards is the following:
+- Fund managers: 2.5 % of `SPIES`
+- Satoshi•Fund: 2.5 % of `SPIES`. Referrals are subject to
 The primary purpose of the entry fee is a motivation of investment agents.
 
 Minimum entrance is 10 bitcoins. If amount sent to generated address is less than 10 bitcoins it will be accumulated until reach 10 bitcoins.
@@ -146,11 +146,11 @@ Minimum entrance is 10 bitcoins. If amount sent to generated address is less tha
 - Fund managers: 0.1% of bitcoins
 - Satoshi•Fund: 0.1% of bitcoins
 
-The primary purpose of the exit fee is to create incentives for selling SPIES tokens in the open market.
+The primary purpose of the exit fee is to create incentives for selling `SPIES` tokens in the open market.
 
-SPIES tokens are transferable without any restrictions. Thus entering and exiting the fund is possible without fees mentioned above by trading on decentralized BitShares exchange or making private deals. This creates opportunity for primary source of revenue for fund managers and Satoshi•Fund.
+`SPIES` tokens are transferable without any restrictions. Thus entering and exiting the fund is possible without fees mentioned above by trading on decentralized BitShares exchange or making private deals. This creates opportunity for primary source of revenue for fund managers and Satoshi•Fund.
 
-Trading and transfer fees. Every time SPIES tokens are traded or transferred 0.15% is allocated as a fee managed by satoshifund account. Thus liquidity of SPIES token is a key factor to success of underlying business model of a product.
+Trading and transfer fees. Every time `SPIES` tokens are traded or transferred 0.15% is allocated as a fee managed by satoshifund account. Thus liquidity of `SPIES` token is a key factor to success of underlying business model of a product.
 
 All rewards are a subject to reduction depending on a stage of development of Satoshi•Pie.
 
@@ -164,12 +164,12 @@ The proposed economic model is more cost efficient in comparison to traditional 
 ## 8. Reporting and Transparency
 Net asset evaluation of Satoshi•Pie is available here: https://cyber.fund/@satoshi_pie.
 
-Market cap of SPIES tokens is available here: https://cyber.fund/system/SatoshiPie.
+Market cap of `SPIES` tokens is available here: https://cyber.fund/system/SatoshiPie.
 
 All transactions, references and proofs should be published here: https://satoshi.fund/SatoshiPie/transparency. This address should contain the following information:
 - The possession proofs using public messages containing PGP fingerprints of fund’s managers signed using private keys of the published addresses
 - All historical data on a daily basis
-- The references to proofs on issuance and burning of SPIES
+- The references to proofs on issuance and burning of `SPIES`
 - The references to proofs on income and outcome of capital
 - The references to proofs on investment decisions, trading and transfer operations
 
@@ -188,7 +188,7 @@ The following measures are mandatory in order to reduce risk of private keys the
 - There are other security measures taken that cannot be disclosed.
 
 ## 10. Risks
-The purchase of SPIES tokens carries with it significant risks. Prior to purchasing SPIES tokens, the purchaser should carefully consider the risks disclosed in cyber•Rating methodology in Risk Assessment section [CR]. Purchasers and fund managers are exposed to the following risks: inherent risk, loss risk, theft risk, regulatory risk, miscomprehension risk. By sending bitcoins to address the purchaser agrees that he or she understands and accepts these risks and potential losses of all funds without a possibility to restore. Fund managers do not hold any risks except for risk of losing personal investments which comprise currently about 15% of assets under management.
+The purchase of `SPIES` tokens carries with it significant risks. Prior to purchasing `SPIES` tokens, the purchaser should carefully consider the risks disclosed in cyber•Rating methodology in Risk Assessment section [CR]. Purchasers and fund managers are exposed to the following risks: inherent risk, loss risk, theft risk, regulatory risk, miscomprehension risk. By sending bitcoins to address the purchaser agrees that he or she understands and accepts these risks and potential losses of all funds without a possibility to restore. Fund managers do not hold any risks except for risk of losing personal investments which comprise currently about 15% of assets under management.
 
 ## 11. Liquidation
 The following events could trigger the liquidation procedure:
@@ -201,33 +201,43 @@ Liquid assets are terminated
 Nonliquid assets
 
 - All available holdings are exchanged into BTC in 2 weeks period
-- All BTC are split across SPIES holders proportionally their share of SPIES tokens
+- All BTC are split across `SPIES` holders proportionally their share of `SPIES` tokens
 - All BTC are sent to the registered addresses
 - If there is an illiquid asset under possession, it is held by fund managers or a trusted person until it could be exchanged into BTC.
 
 ## 12. Taxation
-No party involved with the Creation of makes any representations concerning the tax implications of the Creation of SPIES tokens or the possession or use of SPIES tokens. The purchaser bears the sole responsibility to determine whether holding of SPIES tokens or the potential appreciation or depreciation in the value of SPIES tokens over time have any tax implications for him/her in his/her home jurisdiction.
+No party involved with the Creation of makes any representations concerning the tax implications of the Creation of `SPIES` tokens or the possession or use of `SPIES` tokens. The purchaser bears the sole responsibility to determine whether holding of `SPIES` tokens or the potential appreciation or depreciation in the value of `SPIES` tokens over time have any tax implications for him/her in his/her home jurisdiction.
 
-The SPIES tokens are issued when the purchaser sends BTC to the designated fund account. Thus the purchaser does triggers SPIES issuance by his/her own actions. To the extent permitted by law, third parties or individuals associated with the Satoshi•Fund are not liable for any tax liability associated with or arising from holding of SPIES tokens.
+The `SPIES` tokens are issued when the purchaser sends BTC to the designated fund account. Thus the purchaser does triggers `SPIES` issuance by his/her own actions. To the extent permitted by law, third parties or individuals associated with the Satoshi•Fund are not liable for any tax liability associated with or arising from holding of `SPIES` tokens.
 
 ## 13. Token price calculation
-Токен SPIES свободно торгуемый на децентрализованной бирже BitShares актив. Его цена определяется участниками рынка. Любой владелец может свободно перемещать и продавать токены SPIES.
+Токен `SPIES` свободно торгуемый на децентрализованной бирже BitShares актив. Его цена определяется участниками рынка. Любой владелец может свободно перемещать и продавать токены `SPIES`.
 
-Для осушествления операций redeem и issue Satshi•Fund осуществляет рассчет цены на основе Net Asset Valuation (NAV)
+Для осушествления операций `redeem` и `issue` Satshi•Fund осуществляет рассчет цены на основе Net Asset Valuation (NAV)
 
 - Все параметры для калькуляции цены берутся по состоянию на 12:00 GMT - `Calculation Time`
-- Базовым активом для рассчетов является Биткоин, это значит что пересчет цены в активе отличном от биткоина осуществляется через стоимость биткона в активе пересчета (Example: Asset price in USD = asset price in BTC * BTC price in USD)
+- Базовым активом для рассчетов является Биткоин, это значит что пересчет цены в активе отличном от биткоина осуществляется через стоимость биткона в активе пересчета (Example: `Asset price in USD` = `Asset Price in BTC` * `BTC price in USD`)
+
+Every week the following procedures should be executed in order to calculate `SPIES` price by NAV:
+- calculate balances for all Satoshi•Pie accounts (base format: `account`,`symbol`,`amount`,`date`)
+- calculate asset prices (base format: `asset`,`symbol`,`price in btc`,`price in usd`,`date`)
+- calculate `SPIES` tokens supply
+- calculate NAV
+- calculate price of 1 `SPIES` in BTC
 
 Для оценки стоимости конкретных активов Satshi•Fund делит их на *ликвидные* и *неликвидные*
 
 **Price of liquid assets**
+
 Для калькуляции стоимости *ликвидных* активов используется рыночная (биржевая) цена. see source [Apx.2 Price Sources](https://github.com/SatoshiFund/satoshi.fund/blob/gh-pages/apx.2-price-sources.md)
 
 `Value of Liquid Assets` = `Amount of Tokens` * `Asset Market Price`
 
 **Price of unliquid assets**
+
 Неликвидные - не имеющие рыночной стоимости или неперемещаемые активы
-Для калькуляции стоимости неликвидных активов используется `Asset Buy Price`
+
+Для калькуляции стоимости неликвидных активов используется `Asset Buy Price`.
 `Asset Buy Price` фиксируется в активе за который он приобретался и для целей рассчета NAV пересчитывается в биткоины по состоянию на `Calculation Time`
 
 Example:
@@ -235,34 +245,33 @@ Example:
 
 Методика рассчета цены неликвидных активов приводится в [Apx.2 Price Sources](https://github.com/SatoshiFund/satoshi.fund/blob/gh-pages/apx.2-price-sources.md)
 
-
 `Value of Unliquid Assets` = `Amount of Tokens` * `Asset Buy Price in BTC`
 
-Supply количество токенов `SPIES` существующее на момент `Calculation Time`
+Supply количество токенов ``SPIES`` существующее на момент `Calculation Time`
 
+Таким образом учитывая вышеизложенное рассчет производится
 `Token Price by NAV` = (`Value of liquid Assets` + `Value of unliquid Assets`) / `Supply`
 
 
-The current price of tokens is calculated as fund’s net assets value based on cyber•Rating methodology. Every time purchaser sends SPIES tokens to `satoshi-pie-redeem` account SPIES tokens are destroyed. Payout is calculated based on a price which is calculated at 12.00 GMT each day.
+The current price of tokens is calculated as fund’s net assets value based on cyber•Rating methodology. Every time purchaser sends `SPIES` tokens to `satoshi-pie-redeem` account `SPIES` tokens are destroyed. Payout is calculated based on a price which is calculated at 12.00 GMT each day.
 
 Token Price = Value of Assets / Supply
 Investments = Purchaser Tokens * Token Price - Exit Fee
 
 
-
-Every week the following procedure should be executed in order to calculate all issuances and redeems of SPIES:
 every wednesday 12:00 GMT
 Asset price fixing
 Фиксирование цен на активы осуществляется в 12:00 GMT
- - источники цен [ссылка]
+ - источники цен [Apx.2 Price Sources](https://github.com/SatoshiFund/satoshi.fund/blob/gh-pages/apx.2-price-sources.md)
  - csv файл (asset, symbol, usd-price, btc-price)
+
 
 
 
 ## 14. Issuance Process
 Issue - выпуск новых токенов обеспеченный эквивалентным пополнением портфеля
 
-Every time user sends bitcoins to individual Satoshi•Pie bitcoin address satoshifund issues SPIES tokens based on a Net Asset Valuation.
+Every time user sends bitcoins to individual Satoshi•Pie bitcoin address satoshifund issues `SPIES` tokens based on a Net Asset Valuation.
 
 The investment process is the following:
 - users send BTC to a individual investment account
@@ -270,13 +279,13 @@ The investment process is the following:
 -
 -
 txs:
-bts: issue SPIES to satoshifund
-bts: sent SPIES from satoshifund to clients
-bts: sent SPIES from satoshifund to sp-man-reward
-bts: sent SPIES from satoshifund to sp-agent-reward
+bts: issue `SPIES` to satoshifund
+bts: sent `SPIES` from satoshifund to clients
+bts: sent `SPIES` from satoshifund to sp-man-reward
+bts: sent `SPIES` from satoshifund to sp-agent-reward
 btc: sent BTC from btc-sp-accept-msig to btc-sp-vault-msig  // mass tx
 
-- minimum amount to initiate new SPIES issue is 10 BTC
+- minimum amount to initiate new `SPIES` issue is 10 BTC
 
 ## 15. Redeem Process
 Redeem is уничтожение токенов с последующим выводом из портфеля эквивалентной суммы
@@ -287,29 +296,26 @@ The redeem (burn) process is the following:
 link-to-list-of-reedeem-tx-in-bts-chain (timestamp, bts-tx-id, from-account, to-account, amount, asset, memo)
 
 tx:
-bts: sent SPIES from satoshi-pie-redeem to satoshifund // proposal
-bts: redeem SPIES from satoshifund // proposal
+bts: sent `SPIES` from satoshi-pie-redeem to satoshifund // proposal
+bts: redeem `SPIES` from satoshifund // proposal
 btc: sent BTC from btc-sp-vault-msig to btc-sp-redeem-sent
 btc: sent BTC from btc-sp-redeem-sent to btc-clients  // template, mass tx
 
-- minimum amount to initiate SPIES redeem (burn) is 1000 SPIES
+- minimum amount to initiate `SPIES` redeem (burn) is 1000 `SPIES`
 
 ---
 - в течении суток клиенты осуществляют инвестиции и ридимы
 
-- фиксирование балансов счетов SP в 12 GMT
-- фиксирование цен на активы
-- фиксирование SPIES supply
+
 
 - фиксирование входящих транзакций на индивидуальные инветиционные адрес (получившие 3 и более подтверждения)
  - фиксирование транзакций на ридим (BTS satoshi-pie-redeem)
 
-- рассчет (NAV) Net Asset Valuation
-- рассчет цены за 1 SPIES
-- рассчет количества SPIES к выпуску
+
+- рассчет количества `SPIES` к выпуску
 - рассчет количества BTC к отправке клиентам (ридим)
-- рассчет количества SPIES для вознаграждения агентов
-- рассчет количества SPIES для вознаграждения менеджеров
+- рассчет количества `SPIES` для вознаграждения агентов
+- рассчет количества `SPIES` для вознаграждения менеджеров
 
 - формирование отчетов для менеджеров
 
@@ -367,6 +373,6 @@ btc: sent BTC from btc-sp-redeem-sent to btc-clients  // template, mass tx
 
 [GOLOS] [Golos. Social media on the blockchain for russian language](https://wiki.golos.io/1-introduction/golos_whitepaper.html)
 
-[SPIES] [SPIES token](http://cryptofresh.com/a/SPIES)
+[`SPIES`] [`SPIES` token](http://cryptofresh.com/a/`SPIES`)
 
 [SF] [Satoshifund account on Bitshares](http://cryptofresh.com/u/satoshifund)
