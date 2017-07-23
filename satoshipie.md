@@ -200,15 +200,21 @@ The SPIES tokens are issued when the purchaser sends BTC to the designated fund 
 Токен SPIES свободно торгуемый на децентрализованной бирже BitShares актив. Его рыночная цена определяется участниками рынка. Любой владелец может свободно перемещать и продавать токены SPIES.
 
 Для осушествления операций redeem и issue Satshi•Fund осуществляет рассчет цены на основе Net Asset Valuation (NAV)
-Все параметры для калькуляции цены берутся по состоянию на 12:00 GMT
 
-Для оценки стоимости конкретных активов Satshi•Fund делит их на ликвидные и неликвидные
+- Все параметры для калькуляции цены берутся по состоянию на 12:00 GMT
+- Базовым активом для рассчетов является Биткоин, это значит что пересчет цены в активе отличном от биткоина осуществляется через стоимость биткона в активе пересчета (Example: Asset price in USD = asset price in BTC * BTC price in USD)
 
-Для калькуляции стоимости ликвидных активов используется рыночная (биржевая) цена. see source [Apx.2 Price Sources]
-Value of liquid Assets = amount of tokens * asset market price
+Для оценки стоимости конкретных активов Satshi•Fund делит их на *ликвидные* и *неликвидные*
 
-Для калькуляции стоимости неликвидных активов используется цена покупки актива (перевод в битки через эфиры)
-Value of unliquid Assets = amount of tokens * asset buy price
+Для калькуляции стоимости *ликвидных* активов используется рыночная (биржевая) цена. see source [Apx.2 Price Sources](https://github.com/SatoshiFund/satoshi.fund/blob/gh-pages/apx.2-price-sources.md)
+
+`Value of Liquid Assets` = `Amount of Tokens` * `Asset Market Price`
+
+Для калькуляции стоимости неликвидных активов используется цена покупки актива [Apx.2 Price Sources](https://github.com/SatoshiFund/satoshi.fund/blob/gh-pages/apx.2-price-sources.md)
+
+```
+`Value of Unliquid Assets` = `Amount of Tokens` * `Asset Buy Price`
+```
 
 Supply
 
