@@ -112,7 +112,21 @@ Illiquid asset are usually non transferable assets which are impossible to liqui
 In case of non-compliant structure fund managers are responsible for appropriate actions within 48 hours.
 
 ## 6. Tokens
-The Satoshi•Pie corresponds to [SPIES](http://cryptofresh.com/a/SPIES) asset ID 1.3.1010 that was created at block [5972460](http://cryptofresh.com/b/5972460) using Bitshares ­blockchain as User Issued Asset by account [satoshifund](http://cryptofresh.com/u/satoshifund) [SF]. Supply of tokens depends on incomes and outcomes of fund’s capital. Every time purchaser sends bitcoins to Satoshi•Pie bitcoin address satoshifund issues SPIES tokens based on a price which is calculated at 12.00 GMT each day.
+The Satoshi•Pie corresponds to [SPIES](http://cryptofresh.com/a/SPIES) asset ID 1.3.1010 that was created at block [5972460](http://cryptofresh.com/b/5972460) using Bitshares ­blockchain as User Issued Asset by account [satoshifund](http://cryptofresh.com/u/satoshifund) [SF].
+
+### Supply
+Supply of tokens depends on incomes and outcomes of fund’s capital.
+New `SPIES` tokens can be issued only then new funds arrive at the fund.
+If `SPIES` tokens is destroyed (`redeem` or `burn` procedure) equivalent amount of funds should be sent to a redeem purchaser.
+
+### Secured
+The Fund is designed in a way that at any given moment SPIES tokens are backed by 100% of crypto property under management.
+
+### Transferable
+SPIES tokens also designed to be perfectly transferable. Holders can sent tokens at any time.
+
+### Tradable
+A holders can sell SPIES tokens in the open market at any time.
 
 ## 7. Economic Model
 The economic model of Satoshi•Pie enables lifetime assets management without management fees. Hence, there are 3 sources of revenue for motivating fund managers: profitable decisions, Satoshi•Fund, a continuous development and from investment agents, and new buyers of SPIES tokens.
@@ -197,28 +211,36 @@ No party involved with the Creation of makes any representations concerning the 
 The SPIES tokens are issued when the purchaser sends BTC to the designated fund account. Thus the purchaser does triggers SPIES issuance by his/her own actions. To the extent permitted by law, third parties or individuals associated with the Satoshi•Fund are not liable for any tax liability associated with or arising from holding of SPIES tokens.
 
 ## 13. Token price calculation
-Токен SPIES свободно торгуемый на децентрализованной бирже BitShares актив. Его рыночная цена определяется участниками рынка. Любой владелец может свободно перемещать и продавать токены SPIES.
+Токен SPIES свободно торгуемый на децентрализованной бирже BitShares актив. Его цена определяется участниками рынка. Любой владелец может свободно перемещать и продавать токены SPIES.
 
 Для осушествления операций redeem и issue Satshi•Fund осуществляет рассчет цены на основе Net Asset Valuation (NAV)
 
-- Все параметры для калькуляции цены берутся по состоянию на 12:00 GMT
+- Все параметры для калькуляции цены берутся по состоянию на 12:00 GMT - `Calculation Time`
 - Базовым активом для рассчетов является Биткоин, это значит что пересчет цены в активе отличном от биткоина осуществляется через стоимость биткона в активе пересчета (Example: Asset price in USD = asset price in BTC * BTC price in USD)
 
 Для оценки стоимости конкретных активов Satshi•Fund делит их на *ликвидные* и *неликвидные*
 
+**Price of liquid assets**
 Для калькуляции стоимости *ликвидных* активов используется рыночная (биржевая) цена. see source [Apx.2 Price Sources](https://github.com/SatoshiFund/satoshi.fund/blob/gh-pages/apx.2-price-sources.md)
 
 `Value of Liquid Assets` = `Amount of Tokens` * `Asset Market Price`
 
-Для калькуляции стоимости неликвидных активов используется цена покупки актива [Apx.2 Price Sources](https://github.com/SatoshiFund/satoshi.fund/blob/gh-pages/apx.2-price-sources.md)
+**Price of unliquid assets**
+Неликвидные - не имеющие рыночной стоимости или неперемещаемые активы
+Для калькуляции стоимости неликвидных активов используется `Asset Buy Price`
+`Asset Buy Price` фиксируется в активе за который он приобретался и для целей рассчета NAV пересчитывается в биткоины по состоянию на `Calculation Time`
 
-```
-`Value of Unliquid Assets` = `Amount of Tokens` * `Asset Buy Price`
-```
+Example:
+`Asset Buy Price in BTC` = (`Amount of invested ETH` / `Amount of Asset`) * `ETH price in BTC`
 
-Supply
+Методика рассчета цены неликвидных активов приводится в [Apx.2 Price Sources](https://github.com/SatoshiFund/satoshi.fund/blob/gh-pages/apx.2-price-sources.md)
 
-Token Price by NAV = (Value of liquid Assets + Value of unliquid Assets) / Supply
+
+`Value of Unliquid Assets` = `Amount of Tokens` * `Asset Buy Price in BTC`
+
+Supply количество токенов `SPIES` существующее на момент `Calculation Time`
+
+`Token Price by NAV` = (`Value of liquid Assets` + `Value of unliquid Assets`) / `Supply`
 
 
 The current price of tokens is calculated as fund’s net assets value based on cyber•Rating methodology. Every time purchaser sends SPIES tokens to `satoshi-pie-redeem` account SPIES tokens are destroyed. Payout is calculated based on a price which is calculated at 12.00 GMT each day.
@@ -226,8 +248,7 @@ The current price of tokens is calculated as fund’s net assets value based on 
 Token Price = Value of Assets / Supply
 Investments = Purchaser Tokens * Token Price - Exit Fee
 
-The Fund is designed in a way that at any given moment SPIES tokens are backed by 100% of crypto property under management. SPIES tokens also designed to be perfectly fungible.
-A purchaser can sell SPIES tokens in the open market.
+
 
 Every week the following procedure should be executed in order to calculate all issuances and redeems of SPIES:
 every wednesday 12:00 GMT
@@ -240,6 +261,9 @@ Asset price fixing
 
 ## 14. Issuance Process
 Issue - выпуск новых токенов обеспеченный эквивалентным пополнением портфеля
+
+Every time user sends bitcoins to individual Satoshi•Pie bitcoin address satoshifund issues SPIES tokens based on a Net Asset Valuation.
+
 The investment process is the following:
 - users send BTC to a individual investment account
 -
