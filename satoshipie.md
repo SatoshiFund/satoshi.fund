@@ -116,8 +116,8 @@ The Satoshi•Pie corresponds to [`SPIES`](http://cryptofresh.com/a/`SPIES`) ass
 
 ### Supply
 - Supply of tokens depends on incomes and outcomes of fund’s capital.
-- New ``SPIES`` tokens can be issued only then new funds arrive at the fund.
-- If ``SPIES`` tokens is destroyed (`redeem` or `burn` procedure) equivalent amount of funds should be sent to a redeem purchaser.
+- New `SPIES` tokens can be issued only then new funds arrive at the fund.
+- If `SPIES` tokens is destroyed (`redeem` or `burn` procedure) equivalent amount of funds should be sent to a redeem purchaser.
 
 ### Secured
 The Fund is designed in a way that at any given moment `SPIES` tokens are backed by 100% of crypto property under management.
@@ -247,37 +247,45 @@ Example:
 
 `Value of Unliquid Assets` = `Amount of Tokens` * `Asset Buy Price in BTC`
 
-Supply количество токенов ``SPIES`` существующее на момент `Calculation Time`
+Supply количество токенов `SPIES` существующее на момент `Calculation Time`
 
 Таким образом учитывая вышеизложенное рассчет производится
+
 `Token Price by NAV` = (`Value of liquid Assets` + `Value of unliquid Assets`) / `Supply`
-
-
-The current price of tokens is calculated as fund’s net assets value based on cyber•Rating methodology. Every time purchaser sends `SPIES` tokens to `satoshi-pie-redeem` account `SPIES` tokens are destroyed. Payout is calculated based on a price which is calculated at 12.00 GMT each day.
-
-Token Price = Value of Assets / Supply
-Investments = Purchaser Tokens * Token Price - Exit Fee
-
-
-every wednesday 12:00 GMT
-Asset price fixing
-Фиксирование цен на активы осуществляется в 12:00 GMT
- - источники цен [Apx.2 Price Sources](https://github.com/SatoshiFund/satoshi.fund/blob/gh-pages/apx.2-price-sources.md)
- - csv файл (asset, symbol, usd-price, btc-price)
-
-
 
 
 ## 14. Issuance Process
 Issue - выпуск новых токенов обеспеченный эквивалентным пополнением портфеля
 
+- Выпуск новых токенов `SPIES` осуществляется один раз в неделю
+- Calculations based on a Net Asset Valuation
+- minimum amount to initiate new `SPIES` issue is 10 BTC
+- Срок исполнения операции по выпуску и перечислению токенов с момента `Calculation Time` - до 24 часов
+
 Every time user sends bitcoins to individual Satoshi•Pie bitcoin address satoshifund issues `SPIES` tokens based on a Net Asset Valuation.
 
 The investment process is the following:
-- users send BTC to a individual investment account
+- user register bitshares account using [Satoshi•Pie Web App](https://satoshi.fund/client)
+- Satoshi•Fund generate `individual purchaser btc address` to which purchaser can send BTC to execute process of issue new `SPIES` tokens
+- After registration of bitshares account Satoshi•Fund links this account to `individual purchaser btc address` by sending transaction in BitShares Network:
+
+transfer from `satoshi-pie-reg` to `satoshifund-reg` with memo: {"addr":"`individual purchaser btc address`","name":"`purchaser bts address`","referral":"`referral bts address`"}
+
+All record should be recorded in [Satoshi•Pie issue BTC addresses Registry](https://satoshi.fund/api/pay/records)
+
+- sending BTC to a `individual purchaser btc account` - is `token issue request`
+- Satoshi•Fund make record about `token issue request` in base format:
+
+`SP TX ID`, `individual purchaser btc address`, `purchase btc tx hash`, `# of block in which btc tx included`,`bts acccount of purchaser`, `bts acccount of referral`, `amount of satoshi received`
+
+- проверка всех инвестиционных адресов на наличие входящих транзакций за период с предыдущего `Calculation Time` (
+- если сумма поступлений на `individual purchaser btc address` > 10 BTC - запрос включается в расчет для выпуска новых токенов
 -
--
--
+
+`Amount of SPIES to issue` = `Sum of BTC received on individual purchaser btc address` / `SPIES Price by NAV in BTC`
+
+`Amount of SPIES to sent to purchaser` = `Amount of SPIES to issue` - 5%
+
 txs:
 bts: issue `SPIES` to satoshifund
 bts: sent `SPIES` from satoshifund to clients
@@ -285,7 +293,7 @@ bts: sent `SPIES` from satoshifund to sp-man-reward
 bts: sent `SPIES` from satoshifund to sp-agent-reward
 btc: sent BTC from btc-sp-accept-msig to btc-sp-vault-msig  // mass tx
 
-- minimum amount to initiate new `SPIES` issue is 10 BTC
+
 
 ## 15. Redeem Process
 Redeem is уничтожение токенов с последующим выводом из портфеля эквивалентной суммы
