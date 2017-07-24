@@ -274,17 +274,26 @@ transfer from `satoshi-pie-reg` to `satoshifund-reg` with memo: {"addr":"`indivi
 All record should be recorded in [Satoshi•Pie issue BTC addresses Registry](https://satoshi.fund/api/pay/records)
 
 - sending BTC to a `individual purchaser btc account` - is `token issue request`
-- Satoshi•Fund make record about `token issue request` in base format:
+- Satoshi•Fund make record about `token issue request` to a `SPIES Token Issue Registry`
 
-`SP TX ID`, `individual purchaser btc address`, `purchase btc tx hash`, `# of block in which btc tx included`,`bts acccount of purchaser`, `bts acccount of referral`, `amount of satoshi received`
+`SPIES Toke Issue Registry` contain information about:
+`SP TX ID`, `state`, `individual purchaser btc address`, `purchase btc tx hash`, `# of block in which btc tx included`,`bts acccount of purchaser`, `bts acccount of referral`, `amount of satoshi received`, `SPIES issue tx id`, `SPIES sent tx id`, `fee tx id`
 
 - проверка всех инвестиционных адресов на наличие входящих транзакций за период с предыдущего `Calculation Time` (
 - если сумма поступлений на `individual purchaser btc address` > 10 BTC - запрос включается в расчет для выпуска новых токенов
--
+- for every purchaser Satoshi•Fund calculate `Amount of SPIES to issue` and `Amount of SPIES to sent to purchaser`
 
 `Amount of SPIES to issue` = `Sum of BTC received on individual purchaser btc address` / `SPIES Price by NAV in BTC`
 
 `Amount of SPIES to sent to purchaser` = `Amount of SPIES to issue` - 5%
+
+- after calculations is done `satoshifund` account issue amount of `SPIES` tokens equal to the amount of received funds
+- `satoshifund` account sent `SPIES` tokens to a purchasers bts accounts
+- `satoshifund` account sent reward to a fund managers
+- `satoshifund` account sent reward to a fund agents
+- change states in `SPIES Token Issue Registry`
+- add issue and sent tx ids to `SPIES Token Issue Registry`
+
 
 txs:
 bts: issue `SPIES` to satoshifund
