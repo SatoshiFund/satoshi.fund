@@ -7,7 +7,9 @@ Last edited 16 January 2017
 
 Abstract. The blockchain technology has brought to life a new type of assets and thus laid ground for investments in blockchain assets. Though these new investments are available to everybody worldwide without any restrictions, doing it requires deep expertise in blockchains, understanding of the underlying technology, new ways of decision making and mastery of security tools. The investments in blockchains are also time-consuming. These factors prevent average users from investing in blockchain assets. In this paper we propose a trusted blockchain-based investment fund that will enable anybody to invest in blockchain assets without specific knowledge and without any restrictions. Despite growth opportunities due to blockchain nature of the fund  it also has  properties that are not inherent to any traditional investment funds, namely, zero-cost infrastructure, high security based on multisignature control, independence from the state-based legal systems, transparent audit-free operations, programmable due diligence, and backing by the liquid assets from the beginning.
 
-## 1. Fund Managers
+## 1. Fund Structure
+
+## 2. Fund Managers
 Fund managers are:
 - Konstantin Lomashuk. PGP signature: [0C78 FFA2 1E9D 9145](https://keybase.io/creator)
 - Vitaly Lvov. PGP signature: [0E79 77F0 221B 1773](https://keybase.io/cybermonetarist)
@@ -22,7 +24,11 @@ We have a unique background in managing investments into blockchains since 2011.
 
 In the end of 2014 we made an [analysis of the blockchain economy](https://cyber.fund/cyberep) [CER] and stated a hypothesis that a new type of assets like Bitcoin can grow faster than traditional assets and Bitcoin. Our second fund was formed in 01.01.2015. It had $10k, 50% were our own means. We closed it in May 2016 with 267% of profit. Each transaction was saved on blockchains. There is a [link for audit](https://docs.google.com/spreadsheets/d/1bMrLliQXlv8a5IZPDdjZUif_5eflsO7T6rax3QL1K-A/edit#gid=1150888735) [PE2013].
 
-## 2. Investment Strategy
+## 3. Fund Operator
+
+## 4. Fund Partners
+
+## 5. Investment Strategy
 Our investment strategy is based on 6 hypotheses:
 - Exponential growth of information technologies in accordance with [Moore’s Law](https://en.wikipedia.org/wiki/Moore%27s_law) [MR]
 - [Ultimate efficiency](https://www.academia.edu/22691395/cyber_Rating_Crypto_Property_Evaluation) of decentralized consensus and blockchain technologies for any type of economic interactions [CR]
@@ -40,7 +46,7 @@ The primary investment focus is on solutions that enable the essential autonomou
 
 The inability to predict the future of particular asset due to [black swan events](https://en.wikipedia.org/wiki/Black_swan_theory) [BST] already has been proven. Thus, [maximalism strategies]()https://blog.ethereum.org/2014/11/20/bitcoin-maximalism-currency-platform-network-effects [BM] in pursuit for maximising profits remain high risky. Our investment strategy is aimed at finding the right profit/risk ratio betting on the growth of the whole blockchain economy, not particular assets. Setting optimization goals for US dollar or bitcoins could be not the best way as blockchain economy landscape is changing rapidly. Our investment strategy relies on allocation of fund in the blockchain economy measured based on cyber•Rating. Thus, increasing the share of fund inside the whole economy we could ensure that our investment strategy provides corresponding increase in case of industry growth.
 
-## 3. Enter and Exit Strategy
+## 6. Enter and Exit Strategy
 *Positioning*. Fund Managers takes exclusively long spot positions on its assets, and does not employ any hedging or short positions.
 
 *Investment horizon*. Fund managers shall acquire assets with a long term investment horizon (2 to 5 years), provided that the assets continue to fulfil the investment Committee's satisfaction that a given investment remains fundamentally viable and provided that none of the "Exit Strategy" triggers are fulfilled.
@@ -76,7 +82,7 @@ Exit Trigger Events include:
 - Development team do not publish updates more than 3 months.
 - Critical issues are discovered in consensus code.
 
-## 4. Holding Strategy
+## 7. Holding Strategy
 Holding blockchain assets implies additional revenue streams depending on underlying consensus. The fund managers’ goal is to maximize portfolio growth. The following sources of revenue streams are possible:
 
 *Collateral Deposits*. It is possible that some holdings enable possibility to make nearly risk-free collaterals to perform validation or processing functions of a network. For instance Ethereum’s Casper [EC] will enable validators to earn 10% yearly interest on collateral [8]. Fund managers are responsible for appropriate actions.
@@ -95,7 +101,7 @@ All potential revenue streams mentioned above increase fund’s capital and are 
 
 Holding crypto assets in some cases (for instance, BitShares [BTS], Dash [DASH], Steem [STEEM], Golos [GOLOS]) enables voting and decision making rights. Fund managers’ responsibility is to use these rights in order to maximize portfolio growth.
 
-## 5. Structure and Limits
+## 8. Structure and Limits
 In order to manage target profit/risk ratio the following limits should be controlled by fund managers:
 - Holding of assets based on a particular blockchain: <70% from net asset value (NAV)
 - Holding of assets with similar consensus algorithm: <70% from NAV
@@ -111,7 +117,7 @@ Illiquid asset are usually non transferable assets which are impossible to liqui
 
 In case of non-compliant structure fund managers are responsible for appropriate actions within 48 hours.
 
-## 6. Tokens
+## 9. Tokens
 The Satoshi•Pie corresponds to [SPIES](http://cryptofresh.com/a/SPIES) asset ID 1.3.1010 that was created at block [5972460](http://cryptofresh.com/b/5972460) using Bitshares ­blockchain as User Issued Asset by account [satoshifund](http://cryptofresh.com/u/satoshifund) [SF]. Supply of tokens depends on incomes and outcomes of fund’s capital. Every time purchaser sends bitcoins to Satoshi•Pie bitcoin address satoshifund issues SPIES tokens based on a price which is calculated at 12.00 GMT each day.
 
 Token Price = Value of Assets / Supply
@@ -125,7 +131,7 @@ Investments = Purchaser Tokens * Token Price - Exit Fee
 The Fund is designed in a way that at any given moment SPIES tokens are backed by 100% of crypto property under management. SPIES tokens also designed to be perfectly fungible.
 A purchaser can sell SPIES tokens in the open market.
 
-## 7. Economic Model
+## 10. Economic Model
 The economic model of Satoshi•Pie enables lifetime assets management without management fees. Hence, there are 3 sources of revenue for motivating fund managers: profitable decisions, Satoshi•Fund, a continuous development and from investment agents, and new buyers of SPIES tokens.
 
 *Entry fee*. Any time a purchaser wants to enter the fund  5% of issued SPIES tokens is being deducted to reward fund managers, Satoshi•Fund and referrals. The allocation of rewards is the following:
@@ -158,7 +164,7 @@ The proposed economic model is more cost efficient in comparison to traditional 
 - No enforced taxation losses
 - Near zero IT infrastructure costs
 
-## 8. Reporting and Transparency
+## 11. Reporting and Transparency
 Net asset evaluation of Satoshi•Pie is available here: https://cyber.fund/@satoshi_pie.
 
 Market cap of SPIES tokens is available here: https://cyber.fund/system/SatoshiPie.
@@ -172,7 +178,7 @@ All transactions, references and proofs should be published here: https://satosh
 
 All announcements and changes to this document should be published in official twitter https://twitter.com/@satoshi_fund.
 
-## 9. Security & Contingency
+## 12. Security & Contingency
 The following measures are mandatory in order to eliminate a risk of loosing private keys by fund managers:
 - Primary way of storing funds is 2 of 3 multisignature accounts
 - If multisignature scheme is not available any of the fund managers is assigned to store the asset
@@ -184,10 +190,10 @@ The following measures are mandatory in order to reduce risk of private keys the
 - The access to the centralized exchanges is possible only by using two-factor authorisation
 - There are other security measures taken that cannot be disclosed.
 
-## 10. Risks
+## 13. Risks
 The purchase of SPIES tokens carries with it significant risks. Prior to purchasing SPIES tokens, the purchaser should carefully consider the risks disclosed in cyber•Rating methodology in Risk Assessment section [CR]. Purchasers and fund managers are exposed to the following risks: inherent risk, loss risk, theft risk, regulatory risk, miscomprehension risk. By sending bitcoins to address the purchaser agrees that he or she understands and accepts these risks and potential losses of all funds without a possibility to restore. Fund managers do not hold any risks except for risk of losing personal investments which comprise currently about 15% of assets under management.
 
-## 11. Liquidation
+## 14. Liquidation
 The following events could trigger the liquidation procedure:
 - Decision of 2 fund managers
 - Fund managers alive is less than 2
@@ -202,23 +208,23 @@ Nonliquid assets
 - All BTC are sent to the registered addresses
 - If there is an illiquid asset under possession, it is held by fund managers or a trusted person until it could be exchanged into BTC.
 
-## 12. Taxation
+## 15. Taxation
 No party involved with the Creation of makes any representations concerning the tax implications of the Creation of SPIES tokens or the possession or use of SPIES tokens. The purchaser bears the sole responsibility to determine whether holding of SPIES tokens or the potential appreciation or depreciation in the value of SPIES tokens over time have any tax implications for him/her in his/her home jurisdiction.
 
 The SPIES tokens are issued when the purchaser sends BTC to the designated fund account. Thus the purchaser does triggers SPIES issuance by his/her own actions. To the extent permitted by law, third parties or individuals associated with the Satoshi•Fund are not liable for any tax liability associated with or arising from holding of SPIES tokens.
 
-## 13. Weekly Valuation
+## 16. Weekly Valuation
 Every week the following procedure should be executed in order to calculate all issuances and redeems of SPIES:
 -
 
-## 14. Issuance Process
+## 17. Issuance Process
 The investment process is the following:
 -
 -
 -
 -
 
-## 15. Redeem Process
+## 18. Redeem Process
 The investment process is the following:
 -
 
@@ -227,7 +233,7 @@ The investment process is the following:
 
 [PE2013] Dima Starodubcev, Vitaly Lvov. [cyber•Fund Private Equity 2013 Transparency Report](https://docs.google.com/spreadsheets/d/1bMrLliQXlv8a5IZPDdjZUif_5eflsO7T6rax3QL1K-A/edit#gid=1150888735).
 
-[MR] Wikipedia. [Moore's Law](https://en.wikipedia.org/wiki/Moore%27s_law]
+[MR] Wikipedia. [Moore's Law](https://en.wikipedia.org/wiki/Moore%27s_law)
 
 [CR] Dima Starodubcev. [cyber•Rating: Crypto Property Evaluation](https://www.academia.edu/22691395/cyber_Rating_Crypto_Property_Evaluation)
 
