@@ -61,6 +61,8 @@ EOS - EOS - Bitfinex
 
 Sonm - SNM -  Liqui
 
+DAO.Casino - BET - HitBTC
+
 bitUSD - BITUSD - BitShares DEX
 
 bitCNY - BITCNY - BitShares DEX
@@ -85,7 +87,7 @@ Storj-ERC20 - SJCX-ERC20 - `amount invested eth` / (`amount of sjcx` * `eth pric
 
 Aira - AIR - `amount invested eth` / (`amount of air` * `eth price in btc`)
 
-DAO.Casino - BET - `amount invested eth` / (`amount of bet` * `eth price in btc`)
+
 
 district0x - DNT -  = `amount invested eth` / (`amount of dnt` * `eth price in btc`)
 
@@ -101,3 +103,5 @@ district0x - DNT -  = `amount invested eth` / (`amount of dnt` * `eth price in b
 `Liqui` - decentralized exchange - https://liqui.io
 
 `Poloniex` - exchange - https://poloniex.io
+
+`HitBTC` - exchange - https://hitbtc.com/
