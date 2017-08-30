@@ -216,13 +216,13 @@ No party involved with the Creation of makes any representations concerning the 
 
 The `SPIES` tokens are issued when the purchaser sends BTC to the designated fund account. Thus the purchaser does triggers `SPIES` issuance by his/her own actions. To the extent permitted by law, third parties or individuals associated with the Satoshi•Fund are not liable for any tax liability associated with or arising from holding of `SPIES` tokens.
 
-## 16. Token price calculation
-Токен `SPIES` свободно торгуемый на децентрализованной бирже BitShares актив. Его цена определяется участниками рынка. Любой владелец может свободно перемещать и продавать токены `SPIES`.
+## 16. Token Price Calculation
+Token `SPIES` is tradable asset. Everybaody can trade it using decentralized exchange of Bitshares blockchain protocol. `SPIES` price is determined by the market forces. Любой владелец может свободно перемещать и продавать токены `SPIES`.
 
-Для осушествления операций `redeem` и `issue` Satshi•Fund осуществляет рассчет цены на основе Net Asset Valuation (NAV)
+For `redeem` и `issue` operations Satshi•Fund calculates valuation based on Net Asset Valuation (NAV).
 
-- Все параметры для калькуляции цены берутся по состоянию на 12:00 GMT - `Calculation Time`
-- Базовым активом для рассчетов является Биткоин, это значит что пересчет цены в активе отличном от биткоина осуществляется через стоимость биткона в активе пересчета (Example: `Asset price in USD` = `Asset Price in BTC` * `BTC price in USD`)
+- All parametrs for calculations as of 12:00 GMT - `Calculation Time`
+- Base asset for calculations is BTC. That means that in order to calculate price in asset that differ from BTC we should use BTC/USD ratio. Example: `Asset price in USD` = `Asset Price in BTC` * `BTC price in USD`)
 
 Every week the following procedures should be executed in order to calculate `SPIES` price by NAV:
 - calculate balances for all Satoshi•Pie accounts (base format: `account`,`symbol`,`amount`,`date`)
@@ -231,17 +231,16 @@ Every week the following procedures should be executed in order to calculate `SP
 - calculate NAV
 - calculate price of 1 `SPIES` in BTC
 
-Для оценки стоимости конкретных активов Satshi•Fund делит их на *ликвидные* и *неликвидные*
+All assets are divided into *liquid* and *illiquid*.
 
 **Price of liquid assets**
-
-Для калькуляции стоимости *ликвидных* активов используется рыночная (биржевая) цена. see source [Apx.2 Price Sources](https://github.com/SatoshiFund/satoshi.fund/blob/gh-pages/apx.2-price-sources.md)
+For price calculations is being used prices from the markets that are best fit for asset liquidation. See source [Apx.2 Price Sources](https://github.com/SatoshiFund/satoshi.fund/blob/gh-pages/apx.2-price-sources.md)
 
 `Value of Liquid Assets` = `Amount of Tokens` * `Asset Market Price`
 
-**Price of unliquid assets**
+**Price of illiquid assets**
 
-Неликвидные - не имеющие рыночной стоимости или неперемещаемые активы
+illiquid assets are usually nontransferable assets due ti Неликвидные - не имеющие рыночной стоимости или неперемещаемые активы
 
 Для калькуляции стоимости неликвидных активов используется `Asset Buy Price`.
 `Asset Buy Price` фиксируется в активе за который он приобретался и для целей рассчета NAV пересчитывается в биткоины по состоянию на `Calculation Time`
