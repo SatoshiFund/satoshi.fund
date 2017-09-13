@@ -55,7 +55,11 @@ Bankor - BNT - Bittrex
 
 Stellar - XLM - Bittrex
 
+district0x - DNT - Bittrex
+
 Civic - CVC - Bittrex
+
+Qtum - QTUM - Bittrex
 
 EOS - EOS - Bitfinex
 
@@ -77,8 +81,6 @@ Tezos - XTZ - `amount invested btc` / `amount of XTZ`
 
 Dfinity - DFN - `amount invested btc` / `amount of DFN`
 
-Qtum - QTUM - `amount invested btc` / `amount of QTUM`
-
 aeternity - AE - `amount invested btc` / `amount of AE`
 
 Cosmos - ATOM - `amount invested btc` / `amount of ATOM`
@@ -86,10 +88,6 @@ Cosmos - ATOM - `amount invested btc` / `amount of ATOM`
 Storj-ERC20 - SJCX-ERC20 - `amount invested eth` / (`amount of sjcx` * `eth price in btc`)
 
 Aira - AIR - `amount invested eth` / (`amount of air` * `eth price in btc`)
-
-
-
-district0x - DNT -  = `amount invested eth` / (`amount of dnt` * `eth price in btc`)
 
 ---
 `BitShares DEX` - decentrilized exchange - https://bitshares.org/wallet
@@ -100,7 +98,7 @@ district0x - DNT -  = `amount invested eth` / (`amount of dnt` * `eth price in b
 
 `Bitfinex` - exchange - https://bitfinex.com
 
-`Liqui` - decentralized exchange - https://liqui.io
+`Liqui` - exchange - https://liqui.io
 
 `Poloniex` - exchange - https://poloniex.io
 
